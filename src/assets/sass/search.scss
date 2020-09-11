@@ -1,0 +1,31 @@
+.search-container {
+}
+
+input {
+    background-color: var(--input-bg-color);
+}
+
+input:focus {
+    outline: none;
+}
+
+.input-text {
+    width: 50vw;
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 3px #ccc;
+    color: #105f54;
+    font-size: 1rem;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+input::placeholder {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
